@@ -2,8 +2,8 @@
 
 ## Notes for Project
 don't forget to create .env file and add below line code inside .env file:\
-REACT_APP_PUBLIC_API_KEY = `marvel developer public key` \
-REACT_APP_PRIVATE_API_KEY = `marvel developer private key` \
+REACT_APP_PUBLIC_API_KEY = `<marvel developer public key>` \
+REACT_APP_PRIVATE_API_KEY = `<marvel developer private key>` \
 REACT_APP_BASE_URL = `https://gateway.marvel.com/v1/public`
 
 ## Available Scripts

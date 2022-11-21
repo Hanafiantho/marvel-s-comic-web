@@ -19,7 +19,7 @@ function App() {
         activeMenu={URLPath()}
       />
       <div
-        style={{height: "calc(100vh - 96px)"}}
+        style={{height: "calc(100vh - 68px)"}}
         className="overflow-auto"
       >
          <Routes>
@@ -27,9 +27,6 @@ function App() {
           <Route path="characters" element={ <CharacterPage /> } />
           <Route path="comics" element={ <ComicsPage /> } />
         </Routes>
-      </div>
-      <div className='bg-red-600 px-3 py-1 text-center text-sm font-bold'>
-        © 2022 hanafiantho
       </div>
     </React.Fragment>
   );
